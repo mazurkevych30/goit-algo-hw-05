@@ -67,23 +67,3 @@
 #### Найшвидший алгоритм в цілому:
 
 На основі отриманих даних, алгоритм **Boyer-Moore** є найшвидшим для більшості тестових випадків. Він показав найменший час виконання як для існуючих, так і для вигаданих підрядків у обох файлах.
-
-### Вхідні дані
-
-test_cases = [
-("Existing substring in file 1", article_one_text, "Усі алгоритми"),
-("Existing substring at the beginning of the text in file 1", article_one_text, "АЛГОРИТМІВ"),
-("Existing substring at the end of text in file 1", article_one_text, "Режим доступу до ресурсу"),
-
-    ("Existing substring in the end file 2", article_two_text, "результати показала"),
-    ("Existing substring at the beginning of the text in file 2", article_two_text, "структури даних для реалізації бази даних рекомендаційної"),
-    ("Existing substring at the end of text in file 2", article_two_text, "Структуры данных и алгоритмы. М.: Вильямс, 2000"),
-
-    ("Non-existing substring in file 1", article_one_text, "результати показала та Усі алгоритми"),
-    ("Non-existing substring in file 2", article_two_text, "результати показала та Усі алгоритми"),
-
-]
-
-```
-
-```
